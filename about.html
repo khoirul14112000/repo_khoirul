@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta charset="viewport" content="width=device-width, initial-scale=1">
+	<title>Toko Online Ku</title>
+<style>
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+a{
+	color: #570530;
+	text-decoration: none;
+}
+.medsos{
+	padding: 5px 0;
+	background-color: #548CFF;
+}
+.medsos ul li{
+	display: inline-block;
+	color: #fff;
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin: 0;
+}
+.container:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+header h1{
+	float: left;
+	padding: 15px 0;
+	color: #072227;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+	transition: 0.5s;
+}
+header ul li a:hover{
+	background-color: #D3DEDC;
+	color: #fff;
+	transform: scale(0.98);
+}
+.active{
+	background-color: #980F5A;
+	color: #fff;
+}
+section{
+	padding: 30px 30px;
+	text-align: center;
+}
+section h3{
+	text-align: center;
+	color: #9B0000;
+}
+section{
+	padding: 30px 30px;
+	text-align: center;
+}
+section h3{
+	text-align: center;
+	color: #9B0000;
+	margin-bottom: 25px;
+}
+.about,
+.about p{
+	color: #666;
+	word-spacing: 2px;
+	line-height: 25px;
+}
+footer{
+	padding: 30px 0;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
+
+</style>
+</head>
+<body>
+	<!--loader-->
+	<div class="bg-loader">
+		<div class="loader"></div>
+	</div>
+	
+	<!--header-->
+	<div class="medsos">
+		<div class="container">
+			<ul>
+				<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	<header>
+		<div class="container">
+			<h1><a href="index.html">Toko Online Ku</a></h1>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="belanja.html">BELANJA</a></li>
+				<li><a href="bukutamu.html">BUKU TAMU</a></li>
+				<li class="active"><a href="about.html">ABOUT</a></li>
+			</ul>
+		</div>
+	</header>
+	
+	<!--about-->
+	<section class="about">
+		<div class="container">
+			<h3>ABOUT</h3>
+			<p>Halo sahabat yang luar biasa, pada kesempatan kali ini izinkan kami dari <strong>TOKO ONLINE KU</strong> untuk memperkenalkan diri. Mudah - mudahan dengan adanya perkenalan ini sahabat - sahabat sekalian akan lebih senang berbelanja di toko kami.</p>
+		</div>
+	</section>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".bg-loader").hide();
+		})
+	</script>
+</body>
+</html>
